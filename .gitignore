@@ -1,0 +1,5 @@
+/node_modules
+/lib
+src/**/*.res.js
+output/**/*.html
+.DS_Store

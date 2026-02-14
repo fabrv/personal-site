@@ -1,0 +1,14 @@
+{
+  "name": "dev-blog",
+  "sources": {
+    "dir": "src",
+    "subdirs": true
+  },
+  "package-specs": {
+    "module": "esmodule",
+    "in-source": true
+  },
+  "suffix": ".res.js",
+  "dependencies": ["rescript-bun"],
+  "compiler-flags": ["-open RescriptBun", "-open RescriptBun.Globals"]
+}

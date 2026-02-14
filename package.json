@@ -1,0 +1,19 @@
+{
+  "name": "dev-blog",
+  "version": "0.0.0",
+  "scripts": {
+    "res:build": "rescript",
+    "res:clean": "rescript clean",
+    "res:dev": "rescript watch"
+  },
+  "keywords": [
+    "rescript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "marked": "^17.0.2",
+    "rescript": "^12.1.0",
+    "rescript-bun": "^2.1.0"
+  }
+}

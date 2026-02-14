@@ -1,6 +1,6 @@
-# C to Brainfuck. Devlog #1
+# The Tron Nightmare 
+![Tron 1982 Movie Still](./static/Tron1982.jpg)
 
-## The discovery
 10 years ago I discovered Brainfuck. It was my last year of high-school and I stumbled upon a cryptic looking website about a supposedly hard language to master. I don't know how I got there but it was Cristofani's [brainfuck.org](https://brainfuck.org) website (although back then it had a different URL), I went through all the links, looked at every file and then I discovered the [esolangs wiki](https://esolangs.org/wiki/Main_Page).
 
 For the next few months Brainfuck was the only thing I could focus on, I read all the legends of the early 2000s esolangs scene and checked every compiler and interpreter I could and of course made my own language; all the basic things that you **HAVE** to do once you discover the world of esolangs.
@@ -23,7 +23,8 @@ Writing code in Brainfuck is actually not that hard but it's a serious test of p
 
 And that's how [brasic](https://github.com/fabrv/brasic/blob/master/brasm.bf), the buggiest compiler ever written was born. Just to have an idea on how bad it is, this is a quote from the README:
 ```
-  [...] practically anything will break the compiler. So here are some things to have in mind to make it work:
+  [...] practically anything will break the compiler.
+  So here are some things to have in mind to make it work:
   - Every command has to be written exactly as in the commands section.
   - Your text editor must do "Return Carriage, New Line".
   - Every line has to have code.
@@ -41,14 +42,13 @@ All semester I tried to steer the project so I could reuse it for my Brainfuck c
 But that "later" never happened.
 
 ## The Nightmare
-![Tron 1982 Movie Still](./static/Tron1982.jpg)
 I did a couple of half-assed attempts throughout the years, certainly I learned something at every try but I never fully committed. And life went on, work, family, friends and other hobbies were always ahead of the C-to-Brainfuck project. 
 
 That was until October of last year, when I had a nightmare about being inside a Brainfuck Machine, Tron (1982) style, and I had to write a C program to return to the real world. After successfully making it I woke up agitated, it's stupid, I know, but it *felt* scary. More importantly I had come up with a new way of making a BF compiler, an idea so ingenious I wrote it down and went back to bed.
 
--- add image of my stupid squiggles here --
+![drawing of an architeture I dreamt](./static/notes.jpg)
 
-The following morning I tried to make the program from the notes, unsurprisingly it was really stupid and it didn't work. However I got the Brainfuck-mania again, and this time I was determined to commit. 
+The following morning I tried to make the program from the notes, unsurprisingly it didn't work. However I got the Brainfuck-mania again, and this time I was determined to commit. 
 
 -----
 If you are interested in a more technical deep dive [read the next entry >>](#)

@@ -1,9 +1,18 @@
+:root {
+  --color-bg: #fcf9f2;
+  --color-hr: #efefef;
+  --color-navbar-link: gray;
+  --color-blue: #a8d4f0;
+  --color-dark-blue: #4a7fa5;
+  --color-green: #b8e6c1;
+}
+
 body {
   max-width: 800px;
   margin: auto;
   font-family: "Spectral", serif;
   padding: 1rem;
-  background-color: #fcf9f2;
+  background-color: var(--color-bg);
 }
 
 img {
@@ -16,7 +25,7 @@ p {
 }
 
 hr {
-  border: solid 1px #EFEFEF;
+  border: solid 1px var(--color-hr);
 }
 
 .navbar {
@@ -27,7 +36,7 @@ hr {
     margin-right: 1rem;
 
     a {
-      color: gray;
+      color: var(--color-navbar-link);
     }
   }
 }
@@ -39,11 +48,16 @@ hr {
 }
 
 .highlight-blue {
-  background-color: #a8d4f0;
+  background-color: var(--color-blue);
   padding: 0.1em 0.05em;
 }
 
 .highlight-green {
-  background-color: #b8e6c1;
+  background-color: var(--color-green);
   padding: 0.1em 0.05em;
+}
+
+a {
+  text-decoration: underline wavy;
+  color: var(--color-dark-blue);
 }
